@@ -37,5 +37,10 @@ The name of your test should consist of three parts:
 - The scenario under which it's being tested
 - The expected behaviour when the scenario is invoked
 
+## 3. Avoid Magic Strings / Values:
 
+Well named constants explicitly show what you're trying to prove, and avoid confusion for test contributors / maintainers.
 
+## 4. Avoid logic in tests:
+
+You have a lesser chance of introducing bugs in your tests, with a focus on your end results, rather than the implementation details.
