@@ -44,3 +44,15 @@ Well named constants explicitly show what you're trying to prove, and avoid conf
 ## 4. Avoid logic in tests:
 
 You have a lesser chance of introducing bugs in your tests, with a focus on your end results, rather than the implementation details.
+
+## 5. Test one scenario per test:
+
+To ensure when the test fails it's clear which test is failing, and where it's failing.
+
+## 6. Write deterministic tests:
+
+Deterministic tests have a consistent behaviour every time the test is run.
+
+## 7. Avoid test interdependence
+
+## 8. Avoid tightly coupled code (Coding best practice to enable seamless testing) 
