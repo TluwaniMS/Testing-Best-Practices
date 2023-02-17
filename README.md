@@ -58,3 +58,14 @@ Deterministic tests have a consistent behaviour every time the test is run.
 ## 7. Avoid test interdependence
 
 ## 8. Avoid tightly coupled code (Coding best practice to enable seamless testing) 
+
+# Integration Testing
+
+# What is Integration Testing ?
+
+Integration testing covers integration between various modules and third-party tools, and APIs consumed by your application, to ensure that each unit works as expected when in collaboration with other units.
+
+`NB!`
+
+Make sure to reset test data to it's initial state between test execution.
+- This ensures that your tests are not dependent on any other part of the system and can be run independently.
